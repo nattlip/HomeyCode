@@ -1,4 +1,4 @@
-set in the driver.js global space
+// set in the driver.js global space this is for a battery powered device
 
 module.exports.on('initNode', token => {
     const node = module.exports.nodes[token];
